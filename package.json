@@ -1,0 +1,25 @@
+{
+  "name": "michai",
+  "type": "commonjs",
+  "version": "1.6.1",
+  "description": "Chat-gpt for bruh Made by mich",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m1chtv/mich-gpt.git"
+  },
+  "author": "mich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/m1chtv/mich-gpt/issues"
+  },
+  "homepage": "https://github.com/m1chtv/mich-gpt#readme",
+  "dependencies": {
+    "chatgpt": "^5.2.5",
+    "discord.js": "^14.14.1"
+  },
+  "keywords": ["chatgpt","chat-gpt", "openai", "ai", "discord.js", "discord", "mich", "m1ch","silent","bruh","venus","discord bot"]
+}
