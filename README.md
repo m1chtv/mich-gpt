@@ -1,6 +1,6 @@
 # mich-gpt
 
-![screenshot](https://media.discordapp.net/attachments/1083974159203307670/1162977036617404536/Screenshot_13.png)
+![mich](https://github.com/user-attachments/assets/0a154e13-7c0d-4ba7-9429-d03853988be9)
 
 A small module for quick implemntation of OpenAI's Chat-GPT into Discord.JS. This is the first public version of the library. For bug reports or feature requests visit https://github.com/m1chtv/mich-gpt
 
