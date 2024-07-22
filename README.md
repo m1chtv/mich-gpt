@@ -11,13 +11,13 @@ This module requires an OpenAI API key. You can get one [here](https://platform.
 **Installing**
 
 ```ssh
-npm i mich-gpt
+npm i gpmich
 ```
 
 ## Example Usage
 
 ```js
-const { MichClient } = require('mich-gpt');
+const { MichClient } = require('gpmich');
 
 const chatgpt = new MichClient(
   "YOUR_OPENAI_API_KEY"
