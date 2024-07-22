@@ -19,14 +19,20 @@ npm i gpmich
 ```js
 const { MichClient } = require('gpmich');
 
-const chatgpt = new MichClient(
-  "YOUR_OPENAI_API_KEY"
-);
+const michClient = new MichClient('Your_API_Key');
 
-client.on("messageCreate", async (message) => {
+client.on('messageCreate', async (message) => {
+  console.log('Message received:', message.content);
+
   if (message.author.bot) return;
-  if (message.channel.id === "CHANNEL_ID") {
-    return await chatgpt.chatMessage(message);
+
+  try {
+    if (message.channel.id === "ChannelID") {
+    await michClient.chatMessage(message);
+    console.log('Message processed by gpmich');
+    }
+  } catch (err) {
+    console.error('Error processing message with gpmich:', err);
   }
 });
 ```
